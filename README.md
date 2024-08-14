@@ -1,16 +1,16 @@
-# calculator
+# Calculator
 
-A new Flutter project.
+I developed this calculator app following the design of Xiaomi's calculators.
 
-## Getting Started
+This is the icon of my app:
+                                                  
+                                                    
+  ![image](https://github.com/user-attachments/assets/96438cb2-1764-4711-ae2d-a5a954e0830c)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+# Sneakpeak: 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-->              ![image](https://github.com/user-attachments/assets/d8c5187d-ce09-4589-a087-6c48c60eb87b)
+
+
