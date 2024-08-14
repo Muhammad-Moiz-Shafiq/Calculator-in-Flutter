@@ -1,6 +1,7 @@
 import 'package:calculator/MyButtons.dart';
 import 'package:flutter/material.dart';
 import 'package:math_expressions/math_expressions.dart';
+import 'dart:core';
 
 class CalculatorUi extends StatefulWidget {
   const CalculatorUi({super.key});
@@ -21,7 +22,8 @@ class _CalculatorUiState extends State<CalculatorUi> {
     Parser p = Parser();
     Expression exp = p.parse(finalQuestion);
     ContextModel cm = ContextModel();
-    evaluatedOutput = exp.evaluate(EvaluationType.REAL, cm).toString();
+    evaluatedOutput =
+        exp.evaluate(EvaluationType.REAL, cm).toStringAsPrecision(3);
   }
 
   String userInput = '', evaluatedOutput = '0';
